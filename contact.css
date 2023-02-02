@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+.body-contact {
+    background-color: #105494;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.c-h1 {
+    color: white;
+    margin-top: 5.5rem;
+    margin-left: 10rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.c-p {
+    color: white;
+    margin-top: 3.5rem;
+    margin-left: 10.355rem;
+    margin-right: 11rem;
+    font-size: 1.65rem;
+    font-weight: lighter;
+}
+
+.container-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6.5rem;
+    margin-left: -1.2rem;
+}
+
+.child_c-1,
+.child_c-2 {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.box_1,
+.box_2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.inp {
+    outline: none;
+    margin: 1rem auto;
+    width: 50rem;
+    height: 6.5rem;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 2.5rem;
+    box-shadow: 0rem 0.5rem #6a70b4;
+}
+
+
+::placeholder {
+    color: white;
+    padding-left: 1.5rem;
+}
+
+
+
+.inp_1 {
+    border-radius: 2.5rem;
+    margin: 1rem 0;
+    width: 100rem;
+    height: 25rem;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    outline: none;
+    color: white;
+    box-shadow: 0rem 0.5rem #6a70b4;
+}
+
+textarea::placeholder {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+
+}
+
+
+.b-btn {
+    cursor: pointer;
+    margin-top: 2.5rem;
+    margin-left: -5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2.5rem;
+    border: none;
+    color: white;
+    padding: 0.85rem 4rem;
+    background-color: #6a70b4;
+    box-shadow: 0.2rem 0.3rem #97a0cd, inset 0.2rem 0.3rem #97a0cd;
+}
+
+
+.b-btn:hover {
+    background-color: white;
+    color: #6a70b4;
+    box-shadow: 0.2rem 0.3rem #97a0cd, inset 0.2rem 0.3rem #97a0cd;
+}
+
+@media (max-width:68em) {
+    html {
+        font-size: 60%;
+    }
+
+    .inp {
+        outline: none;
+        margin: 1rem auto;
+        width: 40rem;
+        height: 6.5rem;
+    }
+
+
+    .inp_1 {
+        margin: 1rem 0;
+        width: 80rem;
+        height: 25rem;
+    }
+}
+
+@media (max-width:55em) {
+    html {
+        font-size: 55%;
+    }
+
+    .inp {
+        outline: none;
+        margin: 1rem auto;
+        width: 35rem;
+    }
+
+
+    .inp_1 {
+        margin: 1rem 0;
+        width: 70rem;
+
+    }
+
+}
+
+
+@media (max-width:43em) {
+    html {
+        font-size: 50%;
+    }
+
+    .child_c-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        margin-top: 3rem;
+        grid-row-gap: 1rem;
+    }
+
+    .child_c-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-row-gap: 1rem;
+        margin-top: -18rem;
+    }
+
+    .inp_1 {
+        width: 50rem;
+        margin-top: -10rem ;
+    }
+
+    .c-h1 {
+        margin-top: 7rem;
+    }
+
+    .c-p {
+        margin-top: 7rem ;
+    }
+
+}
+
+
+@media (max-width:30em) {
+    html {
+        font-size: 45%;
+    }
+
+    .inp_1 {
+        width: 40rem;
+    }
+}

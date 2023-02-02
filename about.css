@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+.body-about {
+    background-color: #103c7c;
+    overflow-x: hidden;
+    width: 100%;
+    height:100vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.main {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    width: 100%;
+    height: 73%;
+    border: 0.1rem solid white;
+    border-radius: 2.5rem;
+}
+
+.child {
+    margin-top: 4rem;
+
+}
+
+
+.child h1 {
+    font-size: 3rem;
+}
+
+.child h1,
+p {
+    color: #ffffff;
+    margin: 4rem;
+    margin-left: 7rem;
+}
+
+.child p {
+    font-size: 1.5rem;
+}
+
+
+.child_img {
+    width: 80%;
+}
+
+.child_img img {
+    margin-top: 1rem;
+    margin-right: 2rem;
+    width: 47rem;
+    /* height: 53rem; */
+}
+
+.button {
+    cursor: pointer;
+    margin-top: 0rem;
+    margin-left: 7.5rem;
+    margin-bottom: 5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2.5rem;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    background-color: lightskyblue;
+    box-shadow: 0.2rem 0.3rem rgba(4, 192, 255, 0.5), inset 0.2rem 0.3rem rgba(4, 192, 255, 0.5);
+}
+
+
+.button:hover {
+    background-color: white;
+    color: lightskyblue;
+    box-shadow: 0.2rem 0.3rem rgba(2, 31, 41, 0.014), inset 0.2rem 0.3rem rgba(1, 45, 59, 0.014);
+}
+
+@media (max-width:75em) {
+    html {
+        font-size: 48%;
+    }
+
+    .child_img img {
+        margin-top: 4rem;
+        margin-right: 2rem;
+        width: 47rem;
+    }
+
+
+}
+
+@media (max-width:62em) {
+    html {
+        font-size: 45%;
+    }
+
+    .child_img img {
+        margin-top: 8rem;
+        margin-right: 2rem;
+
+    }
+
+
+}
+
+@media (max-width:48em) {
+
+
+    .container {
+        margin-top: 7rem;
+    }
+
+    .child_img {
+        width: 0rem;
+    }
+
+    .child_img img {
+        width: 0rem;
+    }
+
+
+}
+
+
+@media (max-width:26em) {
+
+
+
+    .child p {
+        font-size: 1..8rem;
+    }
+
+}
+
+
+@media (max-width:23.5em) {
+
+    .container {
+        margin-top: 5rem;
+    }
+
+    html {
+        font-size: 33%;
+    }
+}
